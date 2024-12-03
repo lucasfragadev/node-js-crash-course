@@ -1,11 +1,11 @@
 {
-  "name": "work",
+  "name": "js-crash-2024",
   "version": "1.0.0",
-  "description": "Estudo sobre Node.js",
+  "description": "Node.js crash course code",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node server.js"
+    "start": "nodemon --env-file=.env server2.js"
   },
   "author": "Lucas Fraga",
   "license": "MIT",
